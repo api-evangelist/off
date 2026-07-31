@@ -1,8 +1,26 @@
 aid: 'off'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/off.png
 name: 'OFF'
-description: 'OFF is a company surfaced as a portfolio company of electric-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'OFF (Off-Live, off.live) is an enterprise AI software company building intelligent
+  applications that help organizations streamline, innovate, and grow. Its products include AiVee,
+  a smart scheduling assistant that uses computer vision to turn calendar images into digital events
+  and manage invitations across popular calendar apps, and Pumky, a text-to-image generation platform
+  with customizable artistic styles for both beginners and professionals. The company builds on
+  computer vision, multilingual large language models, and domain-specialized AI models. Backed by
+  Coinbase Ventures, Samsung Next, and Electric Capital. Surfaced as a portfolio company of
+  electric-capital and added to the API Evangelist network as a stub. As of this enrichment pass the
+  company publishes no public API, developer portal, SDK, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/off/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Crypto
+- Artificial Intelligence
+- Machine Learning
+- Computer Vision
+- Image Generation
+- Scheduling
+- Enterprise Software
+- Productivity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/off-domain-security.yml
 - type: Website
   url: https://www.off.live/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
