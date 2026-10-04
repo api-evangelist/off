@@ -45,9 +45,9 @@ modified: '2026-07-20'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
-- Computer-Vision
-- Image-Generation
+- Machine Learning
+- Computer Vision
+- Image Generation
 - Scheduling
 - Enterprise Software
 - Productivity
@@ -60,6 +60,9 @@ tags_raw:
 - Scheduling
 - Enterprise Software
 - Productivity
+- Machine-Learning
+- Computer-Vision
+- Image-Generation
 apis: []
 maintainers:
 - FN: Kin Lane
